@@ -1,6 +1,6 @@
 _base_ = 'grounding_dino_swin-t_finetune_16xb2_1x_coco.py'
 
-data_root = 'SegmentPlants/inputs/data/detection/'
+data_root = 'Chronocrop/inputs/data/detection/'
 class_name = ('mango', 'romaine lettuce', 'tomato')
 num_classes = len(class_name)
 metainfo = dict(classes=class_name, palette=[(87, 102, 96), (120, 227, 183), (16, 99, 66)])
